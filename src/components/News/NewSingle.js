@@ -1,6 +1,7 @@
 import React from "react";
 
 const NewSingle = ({ item }) => {
+  console.log({ item });
   return (
     <div className="col s4">
       <div className="card">
